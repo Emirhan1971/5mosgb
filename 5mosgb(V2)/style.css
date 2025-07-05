@@ -1,0 +1,213 @@
+.admin-body{
+  background-color: #212121;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img{
+    height: 60vh;
+  }
+  iframe{
+    width: 110%;
+    height: 200px;
+  }
+  .hakkimizda {
+    padding: 15px;
+}
+
+.hakkimizda h2 {
+    font-size: 2rem;
+}
+.card_hizmetlerimiz {
+  flex: 1 1 100%;
+}
+}
+@media (min-width: 769px) {
+  .carousel-item img{
+    height: 100vh;
+  }
+  iframe{
+    width: 400px;
+    height: 200px;
+  }
+}
+.nav {
+    overflow: hidden;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.contents {
+  margin: 0;
+  padding: 20px; /* İsteğe bağlı bir iç boşluk eklenebilir */
+}
+
+.carousel-inner {
+  margin-bottom: 0;
+}
+
+.contents {
+  margin-top: 0;
+}
+
+.hakkimizda {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hakkimizda h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hakkimizda h4 {
+  font-size: 1.5rem;
+  color: #ff6600;
+  margin-top: 20px;
+}
+
+.hakkimizda strong {
+  font-size: 1.2rem;
+  color: #ff6600;
+  margin-top: 20px;
+  display: block;
+}
+
+.hakkimizda p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.hizmetlerimiz hr {
+  border-top: 2px solid #ff6600;
+  width: 50px;
+  margin: 20px 0;
+}
+hr {
+  border: none; /* Varsayılan ince çizgiyi kaldırır */
+  border-top: 2px solid #FFA500; /* Üstten turuncu bir çizgi ekler */
+  margin: 20px auto; /* Çizginin üst ve altına boşluk ekler ve ortalar */
+}
+
+
+.contents {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlıklar */
+.contents strong {
+  display: block;
+  font-size: 1.5em;
+  color: #ff6b00;
+  margin: 20px 0 10px;
+  text-align: center;
+  border-bottom: 2px solid #ff6b00;
+  padding-bottom: 5px;
+}
+
+/* Paragraflar */
+.contents p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Linkler */
+.contents a {
+  color: #ff6b00;
+  text-decoration: none;
+}
+
+.contents a:hover {
+  text-decoration: underline;
+}
+
+/* Separator (hr) */
+.contents hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 30px 0;
+}
+
+
+
+.wp{
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow:2px 2px 2px 2px black;
+}
+.tel{
+  position:fixed;
+  bottom: 70px;
+  right: 15px;
+  z-index: 1000;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  height: 0px;
+}
+.anasayfa{
+  padding: 20px;
+}
+.home-contact{
+  padding: 20px;
+}
+.home-contact {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-contact iframe {
+  border-radius: 8px;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.contact a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
